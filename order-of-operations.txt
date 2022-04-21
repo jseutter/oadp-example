@@ -1,0 +1,12 @@
+-rw-rw-r-- 1 ubuntu ubuntu       977 Apr 21 05:39 velero-policy.json
+-rw-rw-r-- 1 ubuntu ubuntu       309 Apr 21 05:39 awsbucketname.txt
+-rw-rw-r-- 1 ubuntu ubuntu       112 Apr 21 05:41 credentials-velero
+-rw-rw-r-- 1 ubuntu ubuntu       730 Apr 21 05:48 data-protection-application.yaml
+-rw-rw-r-- 1 ubuntu ubuntu       201 Apr 21 05:49 pvc.yaml
+-rw-rw-r-- 1 ubuntu ubuntu       401 Apr 21 05:51 pod.yaml
+-rw-rw-r-- 1 ubuntu ubuntu       271 Apr 21 05:54 backup.yaml
+-rw-rw-r-- 1 ubuntu ubuntu       148 Apr 21 06:19 volumesnapshotclass.yaml
+-rw-rw-r-- 1 ubuntu ubuntu       314 Apr 21 06:19 volumesnapshotrestore.yaml
+-rw-rw-r-- 1 ubuntu ubuntu       416 Apr 21 06:21 pod-restore.yaml
+-rw-rw-r-- 1 ubuntu ubuntu       290 Apr 21 06:28 restore.yaml
+

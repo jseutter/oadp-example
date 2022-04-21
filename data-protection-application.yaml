@@ -1,0 +1,34 @@
+apiVersion: oadp.openshift.io/v1alpha1
+kind: DataProtectionApplication
+metadata:
+  name: dpa-sample
+  namespace: openshift-adp
+spec:
+  configuration:
+    velero:
+      defaultPlugins:
+        - openshift 
+        - aws
+    restic:
+      enable: false 
+  backupLocations:
+    - name: default
+      velero:
+        provider: aws
+        default: true
+        objectStorage:
+          bucket: alsdkfjasldkfj
+          prefix: velero
+        config:
+          region: us-east-2
+          profile: "default"
+        credential:
+          key: cloud
+          name: cloud-credentials 
+  snapshotLocations: 
+    - name: default
+      velero:
+        provider: aws
+        config:
+          region: us-east-2
+          profile: "default"
